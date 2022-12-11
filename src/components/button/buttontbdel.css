@@ -1,0 +1,15 @@
+.btn-tb-del{
+    padding: 5px 10px;
+    margin-left: 15px;
+    background-color: inherit;
+    color: #FF4D4F;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+.btn-tb-del:hover{
+    color: #fff;
+    background-color: #FF4D4F;
+    border-radius: 12px;
+}

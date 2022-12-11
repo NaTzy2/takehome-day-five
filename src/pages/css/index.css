@@ -1,0 +1,98 @@
+.home-title{
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    transition: all 0.25s ease;
+}
+.home-title:hover{
+    color: yellow;
+}
+.wrap{
+    margin: auto
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.card{
+    width: 240px;
+    margin: auto;
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+}
+.card-img{
+    width: 240px;
+    height: 280px;
+}
+.card-title{
+    color: white;
+    font-size: 16px;
+}
+.card-desc{
+    color: white;
+    font-size: 14px;
+}
+.btn{
+    padding: 5px 10px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: slateblue;
+    color: white;
+    transition: all 0.45s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 5px 34%;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    background-color: darkslateblue;
+    color: yellow;
+}
+.btn:active{
+    opacity: 0.5;
+}
+.pagination{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-prev{
+    margin-right: 5px;
+    padding: 5px 10px;
+    color: white;
+    background-color: darkslateblue;
+    border: 1px solid white;
+    border-radius: 2px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+.btn-prev:hover{
+    color: yellow;
+    background-color: slateblue;
+    border: 1px solid yellow;
+    border-radius: 12px;
+}
+.btn-prev:active{
+    opacity: 0.5;
+}
+.btn-next{
+    margin-left: 5px;
+    padding: 5px 10px;
+    color: white;
+    background-color: darkslateblue;
+    border: 1px solid white;
+    border-radius: 2px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+.btn-next:hover{
+    color: yellow;
+    background-color: slateblue;
+    border: 1px solid yellow;
+    border-radius: 12px;
+}
+.btn-next:active{
+    opacity: 0.5;
+}
